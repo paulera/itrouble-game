@@ -30,6 +30,18 @@
             "\"timer_check\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "computer",
+            "=",
+            "computer.Y() + computer.Height()"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []

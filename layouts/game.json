@@ -223,9 +223,9 @@
       "variables": [],
       "behaviors": [
         {
-          "allowDiagonals": true,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "allowDiagonals": true,
           "acceleration": 5000,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
