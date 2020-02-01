@@ -29,6 +29,17 @@
             "\"moss_fire_ex\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"moss_virus\""
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [
@@ -201,6 +212,17 @@
             "\"moss_fire_ex\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"moss_virus\""
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [
@@ -232,6 +254,18 @@
           "parameters": [
             "Player",
             "table",
+            "yes"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "wall",
             "yes"
           ],
           "subInstructions": []

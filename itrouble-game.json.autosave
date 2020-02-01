@@ -182,15 +182,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sprites/items/internet.png",
         "kind": "image",
         "metadata": "",
@@ -258,6 +249,33 @@
         "kind": "image",
         "metadata": "",
         "name": "sprites/items/computer-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "computer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "computer-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_virus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_virus.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -598,23 +616,7 @@
           "value": "0"
         }
       ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Player",
-          "width": 0,
-          "x": 160,
-          "y": 384,
-          "zOrder": 200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
+      "instances": [],
       "objects": [
         {
           "bold": false,
@@ -786,10 +788,10 @@
           "variables": [],
           "behaviors": [
             {
+              "allowDiagonals": true,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 5000,
-              "allowDiagonals": false,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "deceleration": 5000,
@@ -825,20 +827,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -861,20 +863,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -909,20 +911,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -945,20 +947,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -981,20 +983,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -1017,20 +1019,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -1065,20 +1067,68 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11.5625,
-                            "y": 70.2578
+                            "x": 13.0977,
+                            "y": 67.4102
                           },
                           {
-                            "x": 55.6992,
-                            "y": 72.457
+                            "x": 56.8164,
+                            "y": 66.6445
                           },
                           {
                             "x": 54.9184,
                             "y": 128.224
                           },
                           {
-                            "x": 11.3545,
-                            "y": 127.721
+                            "x": 16.2852,
+                            "y": 126.918
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "moss_virus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites/mossItems/mossVirus/moss_virus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13.0977,
+                            "y": 67.4102
+                          },
+                          {
+                            "x": 56.8164,
+                            "y": 66.6445
+                          },
+                          {
+                            "x": 54.9184,
+                            "y": 128.224
+                          },
+                          {
+                            "x": 16.2852,
+                            "y": 126.918
                           }
                         ]
                       ]
@@ -1140,7 +1190,7 @@
           ]
         },
         {
-          "name": "Disk",
+          "name": "disk",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1148,7 +1198,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "disk",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1173,6 +1223,17 @@
                       "customCollisionMask": []
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "name": "disk_hidden",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
               ]
             }
@@ -1275,6 +1336,74 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites/items/computer-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "computer_virus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "computer-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "wall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "wall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1649,6 +1778,120 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "computer",
+                "\"computer_virus\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_virus\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "computer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "VirusCount",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "computer",
+                "\"computer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_idle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "VirusScore",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "computer",
+                "\"timer_check\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "computer",
+                "\"timer_check\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "computer",
           "conditions": [],
@@ -1694,23 +1937,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "AnimationName"
-                      },
-                      "parameters": [
-                        "computer",
-                        "\"computer\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "VarScene"
                       },
                       "parameters": [
-                        "FireCount",
-                        "<",
-                        "3"
+                        "IssuesCount",
+                        "<=",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -1725,64 +1957,197 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "Egal"
-                          },
-                          "parameters": [
-                            "RandomInRange(0, 100)",
-                            "<",
-                            "20"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "SetAnimationName"
+                            "value": "AnimationName"
                           },
                           "parameters": [
                             "computer",
-                            "\"computer_fire\""
+                            "\"computer\""
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PauseObjectTimer"
-                          },
-                          "parameters": [
-                            "computer",
-                            "\"timer_check\""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
+                            "value": "VarScene"
                           },
                           "parameters": [
                             "FireCount",
-                            "+",
-                            "1"
+                            "<",
+                            "3"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "RandomInRange(0, 100)",
+                                "<",
+                                "20"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "computer",
+                                "\"computer_fire\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PauseObjectTimer"
+                              },
+                              "parameters": [
+                                "computer",
+                                "\"timer_check\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "FireCount",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "computer",
+                                "\"timer_check\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "computer",
+                            "\"computer\""
                           ],
                           "subInstructions": []
                         },
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ResetObjectTimer"
+                            "value": "VarScene"
                           },
                           "parameters": [
-                            "computer",
-                            "\"timer_check\""
+                            "VirusCount",
+                            "<",
+                            "3"
                           ],
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "actions": [],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Egal"
+                              },
+                              "parameters": [
+                                "RandomInRange(0, 100)",
+                                "<",
+                                "20"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "computer",
+                                "\"computer_virus\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PauseObjectTimer"
+                              },
+                              "parameters": [
+                                "computer",
+                                "\"timer_check\""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "VirusCount",
+                                "+",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "computer",
+                                "\"timer_check\""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1828,11 +2193,33 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "disk",
+                "\"virus_timer_check\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SetAnimationName"
               },
               "parameters": [
                 "fire_ex",
                 "\"fire_ex_hidden\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "disk",
+                "\"disk_hidden\""
               ],
               "subInstructions": []
             }
@@ -1935,6 +2322,108 @@
               "parameters": [
                 "fire_ex",
                 "\"fire_timer_check\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "disk",
+                "\"disk\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_walking\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "disk",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "DiskCount",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "disk",
+                "\"disk_hidden\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_virus\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "disk",
+                "\"virus_timer_check\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "disk",
+                "\"virus_timer_check\""
               ],
               "subInstructions": []
             }
@@ -2063,6 +2552,129 @@
               ]
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "disk",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "disk",
+                    "\"virus_timer_check\"",
+                    "Random (5) + 5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "DiskCount",
+                    "<",
+                    "Variable(VirusCount)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "disk",
+                    "\"virus_timer_check\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "RandomInRange(0, 100)",
+                        "<",
+                        "50"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "disk",
+                        "\"disk\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "disk",
+                        "\"virus_timer_check\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "DiskCount",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "disk",
+                        "\"virus_timer_check\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2095,6 +2707,17 @@
               "parameters": [
                 "Player",
                 "\"moss_fire_ex\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_virus\""
               ],
               "subInstructions": []
             }
@@ -2269,6 +2892,17 @@
                 "\"moss_fire_ex\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_virus\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -2300,6 +2934,18 @@
               "parameters": [
                 "Player",
                 "table",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "wall",
                 "yes"
               ],
               "subInstructions": []
@@ -2491,13 +3137,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "table",
-          "width": 224,
-          "x": 96,
-          "y": 0,
+          "width": 288,
+          "x": 480,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2506,28 +3152,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "table",
-          "width": 96,
-          "x": 480,
-          "y": 32,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 96,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "table",
           "width": 288,
-          "x": 640,
-          "y": 64,
+          "x": 448,
+          "y": 192,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2536,13 +3167,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 96,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "table",
           "width": 288,
           "x": 96,
-          "y": 128,
+          "y": 288,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2551,43 +3182,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 320,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "table",
-          "width": 96,
-          "x": 768,
-          "y": 224,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "table",
-          "width": 96,
-          "x": 224,
-          "y": 448,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 224,
-          "layer": "",
-          "locked": false,
-          "name": "table",
-          "width": 96,
-          "x": 512,
-          "y": 416,
+          "width": 160,
+          "x": 544,
+          "y": 544,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2602,7 +3203,7 @@
           "name": "computer",
           "width": 0,
           "x": 128,
-          "y": 160,
+          "y": 256,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2617,7 +3218,7 @@
           "name": "computer",
           "width": 0,
           "x": 256,
-          "y": 160,
+          "y": 256,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2646,8 +3247,8 @@
           "locked": false,
           "name": "computer",
           "width": 0,
-          "x": 672,
-          "y": 96,
+          "x": 608,
+          "y": 160,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2655,111 +3256,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 0,
-          "x": 800,
-          "y": 96,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 0,
-          "x": 96,
-          "y": 0,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 0,
-          "x": 224,
-          "y": 0,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 0,
-          "x": 224,
-          "y": 576,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 179.607,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 96,
-          "x": 224,
-          "y": 448,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -179.736,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 0,
-          "x": 768,
-          "y": 224,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "computer",
-          "width": 0,
-          "x": 768,
-          "y": 480,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 179.607,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -2767,22 +3263,22 @@
           "name": "computer",
           "width": 0,
           "x": 512,
-          "y": 416,
+          "y": 288,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -179.736,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
           "name": "computer",
           "width": 0,
-          "x": 480,
-          "y": 32,
+          "x": 640,
+          "y": 288,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2811,8 +3307,8 @@
           "locked": false,
           "name": "fire_ex",
           "width": 0,
-          "x": 896,
-          "y": 256,
+          "x": 928,
+          "y": 96,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2827,58 +3323,8 @@
           "name": "fire_ex",
           "width": 0,
           "x": 32,
-          "y": 64,
+          "y": 128,
           "zOrder": 17,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "fire_ex",
-          "width": 0,
-          "x": 864,
-          "y": 0,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "fire_ex",
-          "width": 0,
-          "x": 384,
-          "y": 576,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "fire_ex",
-          "width": 0,
-          "x": 384,
-          "y": 32,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2909,6 +3355,291 @@
           "x": 800,
           "y": 576,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "width": 0,
+          "x": 128,
+          "y": 416,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "disk",
+          "width": 0,
+          "x": 288,
+          "y": 96,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "disk",
+          "width": 0,
+          "x": 864,
+          "y": 32,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "disk",
+          "width": 0,
+          "x": 896,
+          "y": 576,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "disk",
+          "width": 0,
+          "x": 224,
+          "y": 352,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 160,
+          "x": 800,
+          "y": 416,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 832,
+          "y": 384,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 480,
+          "x": 224,
+          "y": 448,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 256,
+          "y": 416,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 416,
+          "y": 416,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 576,
+          "y": 416,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 224,
+          "x": 224,
+          "y": 544,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 352,
+          "y": 512,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "locked": false,
+          "name": "wall",
+          "width": 32,
+          "x": 800,
+          "y": 0,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "locked": false,
+          "name": "wall",
+          "width": 32,
+          "x": 96,
+          "y": 480,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "wall",
+          "width": 32,
+          "x": 768,
+          "y": 512,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "wall",
+          "width": 224,
+          "x": 128,
+          "y": 160,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0.329653,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 96,
+          "x": 576,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 224,
+          "y": 512,
+          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
