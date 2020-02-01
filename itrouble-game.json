@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "/Users/paulo/workspace/gdevelop/itrouble/itrouble-game.json",
+    "projectFile": "/Users/renanlopes/Documents/workspace/gamejam/itrouble-game/itrouble-game.json",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -159,6 +159,42 @@
         "kind": "image",
         "metadata": "",
         "name": "sprites/moss/moss_walking_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/fire-extinguisher.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/fire-extinguisher.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/disk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/disk.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/internet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/internet.png",
         "smoothed": false,
         "userAdded": true
       }
