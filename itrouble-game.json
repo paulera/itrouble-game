@@ -278,6 +278,24 @@
         "name": "NewObject2-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_fire_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_fire_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_fire_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_fire_01.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
