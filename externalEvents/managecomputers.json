@@ -156,6 +156,18 @@
             "\"timer_check\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "Item",
+            "=",
+            "\"no_item\""
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -168,24 +180,33 @@
         {
           "type": {
             "inverted": false,
-            "value": "AnimationName"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "computer",
-            "\"computer_virus\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"moss_virus\""
-          ],
-          "subInstructions": []
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "computer",
+                "\"computer_virus\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"moss_walking_virus\""
+              ],
+              "subInstructions": []
+            }
+          ]
         },
         {
           "type": {
@@ -270,6 +291,18 @@
             "\"timer_check\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "Item",
+            "=",
+            "\"no_item\""
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -327,7 +360,7 @@
                   "parameters": [
                     "IssuesCount",
                     "<=",
-                    "5"
+                    "3"
                   ],
                   "subInstructions": []
                 }
@@ -358,7 +391,7 @@
                       "parameters": [
                         "FireCount",
                         "<",
-                        "3"
+                        "2"
                       ],
                       "subInstructions": []
                     }
@@ -458,7 +491,7 @@
                       "parameters": [
                         "VirusCount",
                         "<",
-                        "3"
+                        "2"
                       ],
                       "subInstructions": []
                     }

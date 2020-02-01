@@ -525,16 +525,170 @@
           ]
         },
         {
-          "name": "moss_virus",
+          "name": "moss_idle_virus",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/mossItems/mossVirus/moss_idle_virus2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_walking_virus",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossVirus/moss_virus.png",
+                  "image": "sprites/mossItems/mossVirus/moss_virus1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.0977,
+                        "y": 67.4102
+                      },
+                      {
+                        "x": 56.8164,
+                        "y": 66.6445
+                      },
+                      {
+                        "x": 54.9184,
+                        "y": 128.224
+                      },
+                      {
+                        "x": 16.2852,
+                        "y": 126.918
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.0977,
+                        "y": 67.4102
+                      },
+                      {
+                        "x": 56.8164,
+                        "y": 66.6445
+                      },
+                      {
+                        "x": 54.9184,
+                        "y": 128.224
+                      },
+                      {
+                        "x": 16.2852,
+                        "y": 126.918
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.0977,
+                        "y": 67.4102
+                      },
+                      {
+                        "x": 56.8164,
+                        "y": 66.6445
+                      },
+                      {
+                        "x": 54.9184,
+                        "y": 128.224
+                      },
+                      {
+                        "x": 16.2852,
+                        "y": 126.918
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1052,6 +1206,18 @@
             "\"Level0\"",
             "0",
             "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "Item",
+            "=",
+            "\"no_item\""
           ],
           "subInstructions": []
         }

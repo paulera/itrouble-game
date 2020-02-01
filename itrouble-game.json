@@ -296,6 +296,60 @@
         "name": "sprites/items/computer_fire_01.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_virus1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_virus1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_virus2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_virus2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_virus3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_virus3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_virus4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_virus4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_idle_virus2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_idle_virus2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

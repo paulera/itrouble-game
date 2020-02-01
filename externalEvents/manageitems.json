@@ -165,6 +165,18 @@
             "\"fire_timer_check\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "Item",
+            "=",
+            "\"fire_ex\""
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -265,6 +277,18 @@
           "parameters": [
             "disk",
             "\"virus_timer_check\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "Item",
+            "=",
+            "\"disk\""
           ],
           "subInstructions": []
         }
@@ -516,6 +540,14 @@
           ]
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ]
 }
