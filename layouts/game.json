@@ -533,7 +533,7 @@
               "timeBetweenFrames": 0.8,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
                   "points": [],
                   "originPoint": {
@@ -547,10 +547,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.0977,
+                        "y": 67.4102
+                      },
+                      {
+                        "x": 56.8164,
+                        "y": 66.6445
+                      },
+                      {
+                        "x": 54.9184,
+                        "y": 128.224
+                      },
+                      {
+                        "x": 16.2852,
+                        "y": 126.918
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/mossItems/mossVirus/moss_idle_virus2.png",
                   "points": [],
                   "originPoint": {
@@ -564,7 +583,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.0977,
+                        "y": 67.4102
+                      },
+                      {
+                        "x": 56.8164,
+                        "y": 66.6445
+                      },
+                      {
+                        "x": 54.9184,
+                        "y": 128.224
+                      },
+                      {
+                        "x": 16.2852,
+                        "y": 126.918
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -894,7 +932,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer.png",
                   "points": [],
                   "originPoint": {
@@ -908,7 +946,26 @@
                     "x": 60.7754,
                     "y": 40.8799
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -923,7 +980,7 @@
               "timeBetweenFrames": 0.1,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_00.png",
                   "points": [],
                   "originPoint": {
@@ -937,10 +994,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_00.png",
                   "points": [],
                   "originPoint": {
@@ -954,10 +1030,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_01.png",
                   "points": [],
                   "originPoint": {
@@ -971,10 +1066,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_00.png",
                   "points": [],
                   "originPoint": {
@@ -988,10 +1102,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_01.png",
                   "points": [],
                   "originPoint": {
@@ -1005,10 +1138,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_01.png",
                   "points": [],
                   "originPoint": {
@@ -1022,10 +1174,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_01.png",
                   "points": [],
                   "originPoint": {
@@ -1039,10 +1210,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_00.png",
                   "points": [],
                   "originPoint": {
@@ -1056,10 +1246,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/items/computer_fire_01.png",
                   "points": [],
                   "originPoint": {
@@ -1073,7 +1282,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1088,7 +1316,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "computer-1.png",
                   "points": [],
                   "originPoint": {
@@ -1102,7 +1330,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
                 }
               ]
             }
