@@ -99,7 +99,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "FireScore",
+            "CoffeeValue",
             "=",
             "VariableString(CoffeeValue)"
           ],

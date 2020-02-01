@@ -11,35 +11,9 @@
         {
           "type": {
             "inverted": false,
-            "value": "AnimationName"
+            "value": "DepartScene"
           },
           "parameters": [
-            "computer",
-            "\"computer_fire\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"moss_fire_ex\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "computer",
-            "",
-            "",
             ""
           ],
           "subInstructions": []
@@ -49,34 +23,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "SetAnimationName"
+            "value": "ResetObjectTimer"
           },
           "parameters": [
             "computer",
-            "\"computer\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"moss_idle\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "FireScore",
-            "+",
-            "1"
+            "\"timer_check\""
           ],
           "subInstructions": []
         }
@@ -121,9 +72,280 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "computer",
+            "\"computer_fire\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"moss_fire_ex\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "computer",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "FireCount",
+            "-",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "computer",
+            "\"computer\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Player",
+            "\"moss_idle\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "FireScore",
+            "+",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "computer",
+            "\"timer_check\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "UnPauseObjectTimer"
+          },
+          "parameters": [
+            "computer",
+            "\"timer_check\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "FireCount",
+            "<",
+            "3"
+          ],
+          "subInstructions": []
+        }
+      ],
       "actions": [],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "computer",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "computer",
+                "\"timer_check\"",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "computer",
+                "\"timer_check\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "computer",
+                    "\"computer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "FireCount",
+                    "<",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "RandomInRange(0, 100)",
+                        "<",
+                        "20"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "computer",
+                        "\"computer_fire\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "computer",
+                        "\"timer_check\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "FireCount",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "computer",
+                        "\"timer_check\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

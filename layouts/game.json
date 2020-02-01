@@ -512,7 +512,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites/mossItems/mossFireEx/moss_idle_00.png",
                   "points": [],
                   "originPoint": {
@@ -526,7 +526,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.5625,
+                        "y": 70.2578
+                      },
+                      {
+                        "x": 55.6992,
+                        "y": 72.457
+                      },
+                      {
+                        "x": 54.9184,
+                        "y": 128.224
+                      },
+                      {
+                        "x": 11.3545,
+                        "y": 127.721
+                      }
+                    ]
+                  ]
                 }
               ]
             }
