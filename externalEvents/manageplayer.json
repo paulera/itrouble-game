@@ -238,41 +238,6 @@
         }
       ],
       "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "FireEx",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Player",
-            "\"moss_fire_ex\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     }
   ]
 }
