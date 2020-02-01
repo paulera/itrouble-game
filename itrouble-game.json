@@ -251,6 +251,15 @@
         "name": "sprites/mossItems/mossFireEx/moss_idle_00.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer-1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

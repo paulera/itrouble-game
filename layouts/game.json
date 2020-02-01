@@ -22,25 +22,29 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.864
+    "zoomFactor": 0.7962
   },
   "objectsGroups": [],
   "variables": [
     {
       "name": "FireCount",
-      "value": ""
+      "value": "0"
     },
     {
       "name": "VirusCount",
-      "value": ""
+      "value": "0"
     },
     {
       "name": "InternetCount",
-      "value": ""
+      "value": "0"
     },
     {
       "name": "IssuesCount",
-      "value": ""
+      "value": "0"
+    },
+    {
+      "name": "FireScore",
+      "value": "0"
     }
   ],
   "instances": [
@@ -55,6 +59,21 @@
       "x": 160,
       "y": 384,
       "zOrder": 200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "FireEx",
+      "width": 0,
+      "x": 64,
+      "y": 512,
+      "zOrder": 201,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -485,7 +504,7 @@
           ]
         },
         {
-          "name": "mossFireEx",
+          "name": "moss_fire_ex",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -651,7 +670,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "computer",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -672,6 +691,35 @@
                     "name": "centre",
                     "x": 60.7754,
                     "y": 40.8799
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "computer_fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/computer-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
                 }
