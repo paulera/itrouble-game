@@ -45,6 +45,10 @@
     {
       "name": "FireScore",
       "value": "0"
+    },
+    {
+      "name": "FireExCount",
+      "value": "0"
     }
   ],
   "instances": [
@@ -69,7 +73,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "FireEx",
+      "name": "fire_ex",
       "width": 0,
       "x": 64,
       "y": 512,
@@ -554,7 +558,7 @@
       ]
     },
     {
-      "name": "FireEx",
+      "name": "fire_ex",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -562,7 +566,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "FireItem",
+          "name": "fire_ex",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -587,6 +591,17 @@
                   "customCollisionMask": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "fire_ex_hidden",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
             }
           ]
         }
