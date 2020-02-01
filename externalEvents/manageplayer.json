@@ -195,6 +195,27 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "table",
+            "yes"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ]
 }

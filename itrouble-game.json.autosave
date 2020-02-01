@@ -215,6 +215,42 @@
         "name": "sprites/exclamation.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/table.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -501,18 +537,18 @@
       "behaviorsSharedData": []
     },
     {
-      "b": 155,
+      "b": 222,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game",
       "name": "Game",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 155,
+      "r": 222,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 155,
+      "v": 222,
       "uiSettings": {
         "grid": true,
         "gridB": 255,
@@ -556,7 +592,7 @@
           "width": 0,
           "x": 160,
           "y": 384,
-          "zOrder": 1,
+          "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -772,12 +808,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9.97702,
-                            "y": 54.2659
+                            "x": 11.5625,
+                            "y": 70.2578
                           },
                           {
-                            "x": 55.1287,
-                            "y": 54.1602
+                            "x": 55.6992,
+                            "y": 72.457
                           },
                           {
                             "x": 54.9184,
@@ -808,12 +844,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9.97702,
-                            "y": 54.2659
+                            "x": 11.5625,
+                            "y": 70.2578
                           },
                           {
-                            "x": 55.1287,
-                            "y": 54.1602
+                            "x": 55.6992,
+                            "y": 72.457
                           },
                           {
                             "x": 54.9184,
@@ -856,12 +892,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9.97702,
-                            "y": 54.2659
+                            "x": 11.5625,
+                            "y": 70.2578
                           },
                           {
-                            "x": 55.1287,
-                            "y": 54.1602
+                            "x": 55.6992,
+                            "y": 72.457
                           },
                           {
                             "x": 54.9184,
@@ -892,12 +928,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9.97702,
-                            "y": 54.2659
+                            "x": 11.5625,
+                            "y": 70.2578
                           },
                           {
-                            "x": 55.1287,
-                            "y": 54.1602
+                            "x": 55.6992,
+                            "y": 72.457
                           },
                           {
                             "x": 54.9184,
@@ -928,12 +964,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9.97702,
-                            "y": 54.2659
+                            "x": 11.5625,
+                            "y": 70.2578
                           },
                           {
-                            "x": 55.1287,
-                            "y": 54.1602
+                            "x": 55.6992,
+                            "y": 72.457
                           },
                           {
                             "x": 54.9184,
@@ -964,12 +1000,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9.97702,
-                            "y": 54.2659
+                            "x": 11.5625,
+                            "y": 70.2578
                           },
                           {
-                            "x": 55.1287,
-                            "y": 54.1602
+                            "x": 55.6992,
+                            "y": 72.457
                           },
                           {
                             "x": 54.9184,
@@ -981,6 +1017,35 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "mossFireEx",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1104,6 +1169,55 @@
               ]
             }
           ]
+        },
+        {
+          "height": 64,
+          "name": "table",
+          "tags": "",
+          "texture": "NewFile-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 96,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "computer",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites/items/computer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 60.7754,
+                        "y": 40.8799
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1149,6 +1263,19 @@
                 "\"GameUI\"",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Level0\"",
+                "0",
+                "0"
               ],
               "subInstructions": []
             }
@@ -1511,6 +1638,27 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "table",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
@@ -1630,11 +1778,372 @@
   "eventsFunctionsExtensions": [],
   "externalLayouts": [
     {
-      "associatedLayout": "",
+      "associatedLayout": "Game",
       "name": "Level0",
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 992,
+          "x": -32,
+          "y": -32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 672,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 32,
+          "x": 960,
+          "y": -32,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 992,
+          "x": 0,
+          "y": 640,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 672,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 32,
+          "x": -32,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 224,
+          "x": 96,
+          "y": 0,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 96,
+          "x": 480,
+          "y": 32,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 288,
+          "x": 640,
+          "y": 64,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 288,
+          "x": 96,
+          "y": 128,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 320,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 96,
+          "x": 768,
+          "y": 224,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 96,
+          "x": 224,
+          "y": 448,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 224,
+          "layer": "",
+          "locked": false,
+          "name": "table",
+          "width": 96,
+          "x": 512,
+          "y": 416,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 128,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 256,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 480,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 672,
+          "y": 96,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 800,
+          "y": 96,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 96,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 224,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 224,
+          "y": 576,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 179.607,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 96,
+          "x": 224,
+          "y": 448,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -179.736,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 768,
+          "y": 224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 768,
+          "y": 480,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 179.607,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 512,
+          "y": 416,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -179.736,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "computer",
+          "width": 0,
+          "x": 480,
+          "y": 32,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "editionSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -1644,7 +2153,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.88
       }
     },
     {

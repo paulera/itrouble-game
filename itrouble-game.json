@@ -215,6 +215,42 @@
         "name": "sprites/exclamation.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/table.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
