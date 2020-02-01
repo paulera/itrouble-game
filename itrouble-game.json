@@ -197,6 +197,24 @@
         "name": "sprites/items/internet.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/intro_window.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/intro_window.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/exclamation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/exclamation.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
