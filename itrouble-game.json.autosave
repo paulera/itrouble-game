@@ -569,7 +569,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7962
+        "zoomFactor": 0.7482
       },
       "objectsGroups": [],
       "variables": [
@@ -610,21 +610,6 @@
           "x": 160,
           "y": 384,
           "zOrder": 200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "fire_ex",
-          "width": 0,
-          "x": 64,
-          "y": 512,
-          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1395,7 +1380,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "ManageComputers"
+          "target": "ManageItems"
         },
         {
           "disabled": false,
@@ -1404,7 +1389,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "ManageItems"
+          "target": "ManageComputers"
         },
         {
           "disabled": false,
@@ -1555,40 +1540,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "computer",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "computer",
-                "\"computer_fire\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "AnimationName"
               },
               "parameters": [
@@ -1698,27 +1649,6 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "FireCount",
-                "<",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "computer",
           "conditions": [],
@@ -1737,7 +1667,7 @@
                   "parameters": [
                     "computer",
                     "\"timer_check\"",
-                    "5"
+                    "Random(5) + 5"
                   ],
                   "subInstructions": []
                 }
@@ -1891,7 +1821,18 @@
               },
               "parameters": [
                 "fire_ex",
-                "\"timer_check\""
+                "\"fire_timer_check\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "fire_ex",
+                "\"fire_ex_hidden\""
               ],
               "subInstructions": []
             }
@@ -1982,7 +1923,7 @@
               },
               "parameters": [
                 "fire_ex",
-                "\"timer_check\""
+                "\"fire_timer_check\""
               ],
               "subInstructions": []
             },
@@ -1993,7 +1934,7 @@
               },
               "parameters": [
                 "fire_ex",
-                "\"timer_check\""
+                "\"fire_timer_check\""
               ],
               "subInstructions": []
             }
@@ -2004,7 +1945,7 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "FireEx",
+          "object": "fire_ex",
           "conditions": [],
           "actions": [],
           "events": [
@@ -2020,8 +1961,20 @@
                   },
                   "parameters": [
                     "fire_ex",
-                    "\"timer_check\"",
-                    "5"
+                    "\"fire_timer_check\"",
+                    "Random (5) + 5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "FireExCount",
+                    "<",
+                    "Variable(FireCount)"
                   ],
                   "subInstructions": []
                 }
@@ -2034,7 +1987,7 @@
                   },
                   "parameters": [
                     "fire_ex",
-                    "\"timer_check\""
+                    "\"fire_timer_check\""
                   ],
                   "subInstructions": []
                 }
@@ -2048,85 +2001,64 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "AnimationName"
+                        "value": "Egal"
                       },
                       "parameters": [
-                        "fire_ex",
-                        "\"fire_ex_hidden\""
+                        "RandomInRange(0, 100)",
+                        "<",
+                        "50"
                       ],
                       "subInstructions": []
                     }
                   ],
-                  "actions": [],
-                  "events": [
+                  "actions": [
                     {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Egal"
-                          },
-                          "parameters": [
-                            "RandomInRange(0, 100)",
-                            "<",
-                            "100"
-                          ],
-                          "subInstructions": []
-                        }
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "fire_ex",
+                        "\"fire_ex\""
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "SetAnimationName"
-                          },
-                          "parameters": [
-                            "fire_ex",
-                            "\"fire_ex\""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "PauseObjectTimer"
-                          },
-                          "parameters": [
-                            "fire_ex",
-                            "\"timer_check\""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "FireExCount",
-                            "+",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "fire_ex",
-                            "\"timer_check\""
-                          ],
-                          "subInstructions": []
-                        }
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "fire_ex",
+                        "\"fire_timer_check\""
                       ],
-                      "events": []
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "FireExCount",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "fire_ex",
+                        "\"fire_timer_check\""
+                      ],
+                      "subInstructions": []
                     }
-                  ]
+                  ],
+                  "events": []
                 }
               ]
             }
@@ -2852,6 +2784,131 @@
           "x": 480,
           "y": 32,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 64,
+          "y": 512,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 896,
+          "y": 256,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 32,
+          "y": 64,
+          "zOrder": 17,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 864,
+          "y": 0,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 384,
+          "y": 576,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 384,
+          "y": 32,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 416,
+          "y": 288,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fire_ex",
+          "width": 0,
+          "x": 800,
+          "y": 576,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
