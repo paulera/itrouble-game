@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.7962
+    "zoomFactor": 0.7482
   },
   "objectsGroups": [],
   "variables": [
@@ -63,21 +63,6 @@
       "x": 160,
       "y": 384,
       "zOrder": 200,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "fire_ex",
-      "width": 0,
-      "x": 64,
-      "y": 512,
-      "zOrder": 201,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -848,7 +833,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "ManageComputers"
+      "target": "ManageItems"
     },
     {
       "disabled": false,
@@ -857,7 +842,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "ManageItems"
+      "target": "ManageComputers"
     },
     {
       "disabled": false,
