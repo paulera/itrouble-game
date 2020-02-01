@@ -182,15 +182,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sprites/items/internet.png",
         "kind": "image",
         "metadata": "",
@@ -258,6 +249,33 @@
         "kind": "image",
         "metadata": "",
         "name": "sprites/items/computer-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "computer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "computer-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossVirus/moss_virus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossVirus/moss_virus.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
         "smoothed": false,
         "userAdded": true
       }
