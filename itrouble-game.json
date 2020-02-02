@@ -638,6 +638,42 @@
         "name": "sprites/items/computer_virus_02.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_internet_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_internet_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_internet_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_internet_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/floor.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/tiles.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
