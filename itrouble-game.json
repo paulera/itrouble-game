@@ -350,6 +350,132 @@
         "name": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/white.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/shadow.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/clock/clock8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/clock/clock8.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -358,8 +484,16 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Level",
-      "value": "0"
+      "name": "gameseconds",
+      "value": "30"
+    },
+    {
+      "name": "workinghours",
+      "value": "12"
+    },
+    {
+      "name": "starthour",
+      "value": "9"
     }
   ],
   "layouts": [
