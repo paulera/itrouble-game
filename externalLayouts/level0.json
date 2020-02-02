@@ -476,7 +476,7 @@
       "name": "fire_ex",
       "width": 0,
       "x": 896,
-      "y": 128,
+      "y": 160,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -584,6 +584,6 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.58
+    "zoomFactor": 0.7986
   }
 }

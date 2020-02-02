@@ -503,7 +503,7 @@
   "variables": [
     {
       "name": "gameseconds",
-      "value": "5"
+      "value": "7"
     },
     {
       "name": "workinghours",
