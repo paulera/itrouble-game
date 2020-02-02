@@ -1,6 +1,8 @@
 gdjs.IntroCode = {};
 gdjs.IntroCode.GDActualGametimeObjects1= [];
 gdjs.IntroCode.GDActualGametimeObjects2= [];
+gdjs.IntroCode.GDCoffeeInstrusctionsObjects1= [];
+gdjs.IntroCode.GDCoffeeInstrusctionsObjects2= [];
 gdjs.IntroCode.GDComputerOKObjects1= [];
 gdjs.IntroCode.GDComputerOKObjects2= [];
 gdjs.IntroCode.GDInstructionsObjects1= [];
@@ -17,6 +19,8 @@ gdjs.IntroCode.GDcomputerObjects1= [];
 gdjs.IntroCode.GDcomputerObjects2= [];
 gdjs.IntroCode.GDinternetObjects1= [];
 gdjs.IntroCode.GDinternetObjects2= [];
+gdjs.IntroCode.GDcoffeeObjects1= [];
+gdjs.IntroCode.GDcoffeeObjects2= [];
 gdjs.IntroCode.GDExclamationObjects1= [];
 gdjs.IntroCode.GDExclamationObjects2= [];
 
@@ -72,6 +76,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.IntroCode.GDActualGametimeObjects1.length = 0;
 gdjs.IntroCode.GDActualGametimeObjects2.length = 0;
+gdjs.IntroCode.GDCoffeeInstrusctionsObjects1.length = 0;
+gdjs.IntroCode.GDCoffeeInstrusctionsObjects2.length = 0;
 gdjs.IntroCode.GDComputerOKObjects1.length = 0;
 gdjs.IntroCode.GDComputerOKObjects2.length = 0;
 gdjs.IntroCode.GDInstructionsObjects1.length = 0;
@@ -88,6 +94,8 @@ gdjs.IntroCode.GDcomputerObjects1.length = 0;
 gdjs.IntroCode.GDcomputerObjects2.length = 0;
 gdjs.IntroCode.GDinternetObjects1.length = 0;
 gdjs.IntroCode.GDinternetObjects2.length = 0;
+gdjs.IntroCode.GDcoffeeObjects1.length = 0;
+gdjs.IntroCode.GDcoffeeObjects2.length = 0;
 gdjs.IntroCode.GDExclamationObjects1.length = 0;
 gdjs.IntroCode.GDExclamationObjects2.length = 0;
 
