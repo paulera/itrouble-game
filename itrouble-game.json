@@ -767,6 +767,49 @@
         "metadata": "",
         "name": "sound/sfx_fixed.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/84560596_196505055085653_1895455619905748992_n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/84560596_196505055085653_1895455619905748992_n.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/83128362_1100248703676890_1870752192084836352_n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/83128362_1100248703676890_1870752192084836352_n.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/84352759_3428718533865639_8388189700250140672_n.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/84352759_3428718533865639_8388189700250140672_n.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/logo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sound/music_main_loop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound/music_main_loop.wav",
+        "userAdded": false
       }
     ],
     "resourceFolders": []

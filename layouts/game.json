@@ -2528,12 +2528,12 @@
       ]
     },
     {
-      "height": 64,
+      "height": 32,
       "name": "table",
       "tags": "",
       "texture": "NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 96,
+      "width": 32,
       "variables": [],
       "behaviors": []
     },
@@ -3759,6 +3759,45 @@
       "width": 64,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "leg",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/84352759_3428718533865639_8388189700250140672_n.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3923,11 +3962,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlayMusicCanal"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
-            "sound/ITroubled OST.wav",
+            "sound/music_main_loop.wav",
             "1",
             "yes",
             "80",
