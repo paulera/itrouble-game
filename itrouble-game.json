@@ -26,8 +26,8 @@
     "windowWidth": 960,
     "windowHeight": 640,
     "latestCompilationDirectory": "",
-    "maxFPS": 60,
-    "minFPS": 20,
+    "maxFPS": 80,
+    "minFPS": 40,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -503,7 +503,7 @@
   "variables": [
     {
       "name": "gameseconds",
-      "value": "10"
+      "value": "5"
     },
     {
       "name": "workinghours",

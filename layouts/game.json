@@ -3277,14 +3277,14 @@
           "effectType": "CRT",
           "name": "EffectCRT",
           "doubleParameters": {
-            "curvature": 0,
-            "lineContrast": 0,
-            "lineWidth": 0.2,
-            "noise": 0.1,
+            "curvature": 0.05,
+            "lineContrast": 0.1,
+            "lineWidth": 2,
+            "noise": 0.05,
             "noiseSize": 1,
             "vignetting": 0.2,
-            "vignettingAlpha": 0.8,
-            "vignettingBlur": 0.1
+            "vignettingAlpha": 0.2,
+            "vignettingBlur": 0.2
           },
           "stringParameters": {},
           "booleanParameters": {
