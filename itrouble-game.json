@@ -494,6 +494,15 @@
         "name": "faketable-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/coffee.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/coffee.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -503,7 +512,7 @@
   "variables": [
     {
       "name": "gameseconds",
-      "value": "7"
+      "value": "30"
     },
     {
       "name": "workinghours",

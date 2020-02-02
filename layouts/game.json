@@ -53,6 +53,10 @@
     {
       "name": "SceneState",
       "value": "\"play\""
+    },
+    {
+      "name": "LastCoffeeTime",
+      "value": "0"
     }
   ],
   "instances": [],
@@ -888,10 +892,10 @@
       "variables": [],
       "behaviors": [
         {
+          "acceleration": 5000,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "allowDiagonals": true,
-          "acceleration": 5000,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "deceleration": 5000,
@@ -2742,6 +2746,56 @@
       "width": 32,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "coffee",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "coffee",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/coffee.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coffee_hidden",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
