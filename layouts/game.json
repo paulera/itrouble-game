@@ -2007,6 +2007,21 @@
         "textG": 0,
         "textR": 0
       },
+      "comment": "TO DEFINE THE GAME TIME IN SECONDS:\n CMD+ALT+P -> Game Settings -> Global Variables",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
       "comment": "Scene initialization",
       "comment2": ""
     },
@@ -2087,6 +2102,30 @@
             "\"timer_played\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "random_min",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "random_range",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
@@ -2113,6 +2152,52 @@
           "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Egal"
+          },
+          "parameters": [
+            "TimeFromStart()",
+            ">",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "random_min",
+            "=",
+            "5"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "random_range",
+            "=",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     },
     {
       "disabled": false,

@@ -348,7 +348,7 @@
                   "parameters": [
                     "computer",
                     "\"timer_check\"",
-                    "Random(5) + 5"
+                    "Random (Variable(random_range)) + Variable(random_min)"
                   ],
                   "subInstructions": []
                 }

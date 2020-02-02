@@ -336,7 +336,7 @@
                   "parameters": [
                     "fire_ex",
                     "\"fire_timer_check\"",
-                    "Random (5) + 5"
+                    "Random (Variable(random_range)) + Variable(random_min)"
                   ],
                   "subInstructions": []
                 },
@@ -459,7 +459,7 @@
                   "parameters": [
                     "disk",
                     "\"virus_timer_check\"",
-                    "Random (5) + 5"
+                    "Random (Variable(random_range)) + Variable(random_min)"
                   ],
                   "subInstructions": []
                 },
