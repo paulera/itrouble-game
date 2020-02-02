@@ -3923,7 +3923,7 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlaySoundCanal"
+            "value": "PlayMusicCanal"
           },
           "parameters": [
             "",
