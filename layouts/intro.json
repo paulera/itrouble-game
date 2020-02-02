@@ -116,9 +116,162 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ActualGametime",
+      "width": 0,
+      "x": 22,
+      "y": 594,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 24,
+      "y": 402,
+      "zOrder": 13,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 35,
+      "y": 483,
+      "zOrder": 14,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 29,
+      "y": 323,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "fire_ex",
+      "width": 0,
+      "x": 145,
+      "y": 402,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "disk",
+      "width": 0,
+      "x": 147,
+      "y": 495,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ComputerOK",
+      "width": 0,
+      "x": 143,
+      "y": 344,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
+    {
+      "bold": false,
+      "italic": false,
+      "name": "ActualGametime",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "* The actual game time is ## seconds",
+      "font": "fonts/8bitOperatorPlus-Regular.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "ComputerOK",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "COMPUTER OK!",
+      "font": "fonts/8bitOperatorPlus-Regular.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 33,
+        "g": 211,
+        "r": 126
+      }
+    },
     {
       "bold": false,
       "italic": false,
@@ -129,7 +282,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Use the arrows to move around\n\nYou have until 6PM to keep the ship up and running!\nPick up the items and use them to fix the around the office\n\nThe fire extinguisher can stop computers from going\narmageddonly in flames\nVirus can be cleaned up using the floppy disk antivirus\n",
+      "string": "Use the arrows to move around\n\nYou have until 6PM* to keep the ship up and running!\nPick up the items and use them to fix the around the office\n\nThe fire extinguisher can stop computers from going\narmageddonly in flames\nVirus can be cleaned up using the floppy disk antivirus\n",
       "font": "fonts/8bitOperatorPlus-Regular.ttf",
       "characterSize": 20,
       "color": {
@@ -197,6 +350,548 @@
       ]
     },
     {
+      "name": "fire_ex",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "fire_ex",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/fire-extinguisher.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fire_ex_hidden",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computer",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "computer",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 60.7754,
+                    "y": 40.8799
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "computer_fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/items/computer_fire_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "computer_virus",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "computer-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.59375,
+                        "y": 32.7578
+                      },
+                      {
+                        "x": 93.4219,
+                        "y": 35.7891
+                      },
+                      {
+                        "x": 95.1484,
+                        "y": 62.5391
+                      },
+                      {
+                        "x": 2.73438,
+                        "y": 60.9609
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "disk",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "disk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/disk.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "disk_hidden",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Exclamation",
       "tags": "",
       "type": "Sprite",
@@ -245,11 +940,66 @@
         {
           "type": {
             "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"timer_intro\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "ActualGametime",
+            "=",
+            "\"* The actual game time is \" + ToString(GlobalVariable(gameseconds)) + \" seconds\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
             "value": "KeyPressed"
           },
           "parameters": [
             "",
             "Space"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "2",
+            "\"timer_intro\""
           ],
           "subInstructions": []
         }

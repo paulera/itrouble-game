@@ -117,6 +117,44 @@
     {
       "bold": false,
       "italic": false,
+      "name": "PressSpaceRestart",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Press SPACE to restart",
+      "font": "fonts/8bitOperatorPlus-Regular.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 38,
+        "g": 113,
+        "r": 223
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "GameOver",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Time Up! The rest can\nwait unitl tomorrow ...",
+      "font": "fonts/8bitOperatorPlus-Regular.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 38,
+        "g": 113,
+        "r": 223
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "CoffeeCount",
       "smoothed": true,
       "tags": "",
@@ -193,6 +231,25 @@
     {
       "bold": false,
       "italic": false,
+      "name": "HurryUp",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "HURRY UP!",
+      "font": "Diary of an 8-bit mage.otf",
+      "characterSize": 40,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "Debug",
       "smoothed": true,
       "tags": "",
@@ -227,6 +284,544 @@
         "g": 87,
         "r": 139
       }
+    },
+    {
+      "name": "StaticPlayer",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "moss_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/moss/moss_idle_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/moss/moss_idle_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/moss/moss_walking_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/moss/moss_walking_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/moss/moss_walking_02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/moss/moss_walking_03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_fire_ex",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_idle_virus",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_idle_virus2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_walking_virus",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossVirus/moss_virus4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Player",
@@ -824,6 +1419,84 @@
               "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exclamation",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/exclamation.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PopupWindow",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/intro_window.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
             }
           ]
         }
@@ -2126,6 +2799,16 @@
             "1"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "HurryUp"
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
@@ -2207,6 +2890,39 @@
         {
           "type": {
             "inverted": false,
+            "value": "Egal"
+          },
+          "parameters": [
+            "GlobalVariable(gameseconds) - TimeFromStart()",
+            ">",
+            "min(GlobalVariable(gameseconds) * 0.75, 5)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "HurryUp",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
             "value": "Timer"
           },
           "parameters": [
@@ -2249,29 +2965,118 @@
             "\"timeout\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
         }
       ],
       "actions": [
         {
           "type": {
             "inverted": false,
-            "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+            "value": "Delete"
           },
           "parameters": [
             "Player",
-            "TopDownMovement",
-            "yes"
+            ""
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "SetAnimationName"
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
           },
           "parameters": [
-            "Player",
-            "\"moss_idle\""
+            "",
+            "\"EndDialog\"",
+            "0",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "SceneState",
+            "=",
+            "\"gameover\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"timer_gameover\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarSceneTxt"
+          },
+          "parameters": [
+            "SceneState",
+            "=",
+            "\"gameover\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "2",
+            "\"timer_gameover\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Intro\"",
+            "yes"
           ],
           "subInstructions": []
         }
