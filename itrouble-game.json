@@ -611,6 +611,33 @@
         "name": "sprites/moss/moss_walking_coffee_overlay4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_virus_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_virus_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_virus_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_virus_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/computer_virus_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/computer_virus_02.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
