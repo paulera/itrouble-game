@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.616
+    "zoomFactor": 0.776
   },
   "objectsGroups": [],
   "variables": [],
@@ -66,7 +66,7 @@
       "name": "Instructions",
       "width": 0,
       "x": 43,
-      "y": 86,
+      "y": 31,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,21 +113,6 @@
       "x": 149,
       "y": 447,
       "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "ComputerOK",
-      "width": 0,
-      "x": 141,
-      "y": 303,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -251,6 +236,51 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "coffee",
+      "width": 0,
+      "x": 388,
+      "y": 296,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ComputerOK",
+      "width": 0,
+      "x": 141,
+      "y": 303,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "CoffeeInstrusctions",
+      "width": 0,
+      "x": 432,
+      "y": 301,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -271,6 +301,25 @@
         "b": 35,
         "g": 166,
         "r": 245
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "CoffeeInstrusctions",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "POWER SPEED",
+      "font": "fonts/8bitOperatorPlus-Regular.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 33,
+        "g": 211,
+        "r": 126
       }
     },
     {
@@ -302,7 +351,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Use the arrows to move around\n\nYou have until 6PM* to keep the ship up and running!\nPick up the items and use them to fix the around the office\n\nThe fire extinguisher can stop computers from going\narmageddonly in flames\nVirus can be cleaned up using the floppy disk antivirus\n",
+      "string": "Use the arrows to move around\n\nYou have until 6PM* to keep the ship up and running!\nPick up the items and use them to fix the around the office\n\nThe fire extinguisher can stop computers from going\narmageddonly in flames\nVirus can be cleaned up using the floppy disk antivirus\n\nGet the coffee on the tables to get super speed\n",
       "font": "fonts/8bitOperatorPlus-Regular.ttf",
       "characterSize": 20,
       "color": {
@@ -1011,6 +1060,73 @@
         },
         {
           "name": "internet_hidden",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coffee",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "coffee",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/coffee.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/coffee (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coffee_hidden",
           "useMultipleDirections": false,
           "directions": [
             {

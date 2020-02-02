@@ -728,6 +728,24 @@
         "name": "sprites/mossItems/mossInternet/moss_walking_internet4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/coffee_glow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/coffee_glow.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/items/coffee (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/items/coffee (1).png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
