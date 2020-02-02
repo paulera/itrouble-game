@@ -39,16 +39,7 @@
             "Player.Y() + Player.Height() + 1"
           ],
           "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "inverted": false,

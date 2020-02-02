@@ -557,6 +557,60 @@
         "name": "sprites/mossItems/mossFireEx/moss_idle_fire_ex2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/moss/moss_idle_coffee_overlay1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/moss/moss_idle_coffee_overlay1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/moss/moss_idle_coffee_overlay2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/moss/moss_idle_coffee_overlay2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/moss/moss_walking_coffee_overlay1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/moss/moss_walking_coffee_overlay1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/moss/moss_walking_coffee_overlay2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/moss/moss_walking_coffee_overlay2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/moss/moss_walking_coffee_overlay3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/moss/moss_walking_coffee_overlay3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/moss/moss_walking_coffee_overlay4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/moss/moss_walking_coffee_overlay4.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -575,6 +629,10 @@
     {
       "name": "starthour",
       "value": "9"
+    },
+    {
+      "name": "chanceofcoffee",
+      "value": "7"
     }
   ],
   "layouts": [

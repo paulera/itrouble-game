@@ -437,6 +437,19 @@
                 "\"coffee_timer\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "\"EffectCoffee\"",
+                "yes"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -470,6 +483,19 @@
                 "TopDownMovement",
                 "=",
                 "600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"EffectCoffee\"",
+                "no"
               ],
               "subInstructions": []
             }
@@ -677,7 +703,7 @@
                       "parameters": [
                         "RandomInRange(0, 100)",
                         "<",
-                        "5"
+                        "GlobalVariable(chanceofcoffee)"
                       ],
                       "subInstructions": []
                     }
