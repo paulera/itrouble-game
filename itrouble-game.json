@@ -476,6 +476,24 @@
         "name": "sprites/clock/clock8.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "black-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "black-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "faketable-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "faketable-1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -485,7 +503,7 @@
   "variables": [
     {
       "name": "gameseconds",
-      "value": "30"
+      "value": "10"
     },
     {
       "name": "workinghours",
