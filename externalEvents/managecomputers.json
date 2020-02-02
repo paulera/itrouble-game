@@ -85,13 +85,33 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AnimationName"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Player",
-                "\"moss_fire_ex\""
-              ],
-              "subInstructions": []
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"moss_walking_fire_ex\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"moss_idle_fire_ex\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
             },
             {
               "type": {
@@ -200,6 +220,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "computer",
+                "\"computer_virus\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -210,8 +241,8 @@
                     "value": "AnimationName"
                   },
                   "parameters": [
-                    "computer",
-                    "\"computer_virus\""
+                    "Player",
+                    "\"moss_walking_virus\""
                   ],
                   "subInstructions": []
                 },
@@ -222,7 +253,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "\"moss_walking_virus\""
+                    "\"moss_idle_virus\""
                   ],
                   "subInstructions": []
                 }

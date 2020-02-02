@@ -1146,16 +1146,52 @@
           ]
         },
         {
-          "name": "moss_fire_ex",
+          "name": "moss_idle_fire_ex",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.8,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossFireEx/moss_idle_00.png",
+                  "image": "sprites/mossItems/mossFireEx/moss_idle_fire_ex1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossFireEx/moss_idle_fire_ex2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1396,6 +1432,162 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "sprites/mossItems/mossVirus/moss_virus4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_walking_fire_ex",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

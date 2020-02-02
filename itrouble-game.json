@@ -503,6 +503,60 @@
         "name": "sprites/items/coffee.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_fire_ex1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_fire_ex1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_fire_ex2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_fire_ex2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_fire_ex3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_fire_ex3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_fire_ex4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_fire_ex4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_idle_fire_ex1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_idle_fire_ex1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossFireEx/moss_idle_fire_ex2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossFireEx/moss_idle_fire_ex2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

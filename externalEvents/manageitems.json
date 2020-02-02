@@ -182,7 +182,7 @@
               },
               "parameters": [
                 "Player",
-                "\"moss_fire_ex\""
+                "\"moss_idle_fire_ex\""
               ],
               "subInstructions": []
             },
@@ -296,7 +296,7 @@
               },
               "parameters": [
                 "Player",
-                "\"moss_virus\""
+                "\"moss_idle_virus\""
               ],
               "subInstructions": []
             },
