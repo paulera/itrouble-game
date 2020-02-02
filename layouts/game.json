@@ -1827,7 +1827,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossVirus/moss_idle_virus1.png",
+                  "image": "sprites/mossItems/mossInternet/moss_idle1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1863,7 +1863,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossVirus/moss_idle_virus2.png",
+                  "image": "sprites/mossItems/mossInternet/moss_idle2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1911,7 +1911,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex1.png",
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1947,7 +1947,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex2.png",
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1983,7 +1983,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex3.png",
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2019,7 +2019,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites/mossItems/mossFireEx/moss_fire_ex4.png",
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

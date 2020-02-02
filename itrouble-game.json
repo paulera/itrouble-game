@@ -674,6 +674,60 @@
         "name": "sprites/tiles.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossInternet/moss_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossInternet/moss_idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossInternet/moss_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossInternet/moss_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossInternet/moss_walking_internet1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossInternet/moss_walking_internet1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossInternet/moss_walking_internet2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossInternet/moss_walking_internet2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossInternet/moss_walking_internet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossInternet/moss_walking_internet3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/mossItems/mossInternet/moss_walking_internet4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/mossItems/mossInternet/moss_walking_internet4.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
