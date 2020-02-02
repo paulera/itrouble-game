@@ -235,8 +235,8 @@
       "locked": false,
       "name": "StaticPlayer",
       "width": 0,
-      "x": 43,
-      "y": 391,
+      "x": 46,
+      "y": 385,
       "zOrder": 10001,
       "numberProperties": [
         {
@@ -255,9 +255,9 @@
       "locked": false,
       "name": "StaticPlayer",
       "width": 0,
-      "x": 420,
-      "y": 352,
-      "zOrder": 10002,
+      "x": 430,
+      "y": 339,
+      "zOrder": 10001,
       "numberProperties": [
         {
           "name": "animation",
