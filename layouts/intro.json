@@ -93,65 +93,10 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "computer",
-      "width": 0,
-      "x": 24,
-      "y": 402,
-      "zOrder": 13,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "computer",
-      "width": 0,
-      "x": 35,
-      "y": 483,
-      "zOrder": 14,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "computer",
-      "width": 0,
-      "x": 29,
-      "y": 323,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
       "name": "fire_ex",
       "width": 0,
-      "x": 145,
-      "y": 402,
+      "x": 150,
+      "y": 351,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,8 +110,8 @@
       "locked": false,
       "name": "disk",
       "width": 0,
-      "x": 147,
-      "y": 495,
+      "x": 149,
+      "y": 447,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -180,8 +125,8 @@
       "locked": false,
       "name": "ComputerOK",
       "width": 0,
-      "x": 143,
-      "y": 344,
+      "x": 141,
+      "y": 303,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -213,6 +158,96 @@
       "x": 551.084,
       "y": 395.14,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 30,
+      "y": 282,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 31,
+      "y": 354,
+      "zOrder": 20,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 35,
+      "y": 426,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "computer",
+      "width": 0,
+      "x": 34,
+      "y": 499,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "internet",
+      "width": 0,
+      "x": 152,
+      "y": 523,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -373,6 +408,56 @@
         },
         {
           "name": "fire_ex_hidden",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "disk",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "disk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/disk.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "disk_hidden",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -781,12 +866,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.8,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "computer-1.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/computer_virus_00.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -799,52 +884,28 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2.59375,
-                        "y": 32.7578
-                      },
-                      {
-                        "x": 93.4219,
-                        "y": 35.7891
-                      },
-                      {
-                        "x": 95.1484,
-                        "y": 62.5391
-                      },
-                      {
-                        "x": 2.73438,
-                        "y": 60.9609
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "disk",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "disk",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
+                  "customCollisionMask": []
+                },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites/items/disk.png",
+                  "image": "sprites/items/computer_virus_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/computer_virus_02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -864,7 +925,92 @@
           ]
         },
         {
-          "name": "disk_hidden",
+          "name": "computer_internet",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/computer_internet_00.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/computer_internet_01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "internet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "internet",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites/items/internet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "internet_hidden",
           "useMultipleDirections": false,
           "directions": [
             {

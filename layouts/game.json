@@ -347,7 +347,7 @@
       }
     },
     {
-      "name": "StaticPlayer",
+      "name": "PlayerStatic",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1037,6 +1037,246 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "sprites/mossItems/mossFireEx/moss_fire_ex4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_idle_internet",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossInternet/moss_idle1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossInternet/moss_idle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moss_walking_internet",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.86024,
+                        "y": 66.7839
+                      },
+                      {
+                        "x": 60.7595,
+                        "y": 66.7426
+                      },
+                      {
+                        "x": 60.2626,
+                        "y": 127.956
+                      },
+                      {
+                        "x": 7.56076,
+                        "y": 127.773
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sprites/mossItems/mossInternet/moss_walking_internet4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3645,7 +3885,7 @@
           "parameters": [
             "",
             "",
-            "\"EffectGrey\"",
+            "\"EffectCoffee\"",
             "no"
           ],
           "subInstructions": []
@@ -3658,7 +3898,7 @@
           "parameters": [
             "",
             "",
-            "\"EffectCoffee\"",
+            "\"EffectGrey\"",
             "no"
           ],
           "subInstructions": []
@@ -4050,13 +4290,13 @@
           "name": "EffectCRT",
           "doubleParameters": {
             "curvature": 0.05,
-            "lineContrast": 0.1,
-            "lineWidth": 2,
+            "lineContrast": 0,
+            "lineWidth": 1,
             "noise": 0.05,
             "noiseSize": 1,
             "vignetting": 0.2,
             "vignettingAlpha": 0.2,
-            "vignettingBlur": 0.2
+            "vignettingBlur": 0.4
           },
           "stringParameters": {},
           "booleanParameters": {
@@ -4068,7 +4308,7 @@
           "effectType": "Sepia",
           "name": "EffectSepia",
           "doubleParameters": {
-            "opacity": 0.3
+            "opacity": 0.2
           },
           "stringParameters": {},
           "booleanParameters": {}
@@ -4083,16 +4323,17 @@
           "booleanParameters": {}
         },
         {
-          "effectType": "Glow",
+          "effectType": "RGBSplit",
           "name": "EffectCoffee",
           "doubleParameters": {
-            "distance": 20,
-            "innerStrength": 1,
-            "outerStrength": 4
+            "blueX": 0,
+            "blueY": 10,
+            "greenX": 0,
+            "greenY": 0,
+            "redX": -10,
+            "redY": 1
           },
-          "stringParameters": {
-            "color": "#ffffff"
-          },
+          "stringParameters": {},
           "booleanParameters": {}
         }
       ]
