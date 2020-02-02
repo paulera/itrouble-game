@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.3642
+    "zoomFactor": 0.4512
   },
   "objectsGroups": [],
   "variables": [
@@ -3919,6 +3919,21 @@
             "no"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sound/ITroubled OST.wav",
+            "1",
+            "",
+            "80",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "events": [
@@ -3945,6 +3960,76 @@
           "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Egal"
+          },
+          "parameters": [
+            "Player.TopDownMovement::MaxSpeed()",
+            "<=",
+            "700"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModPitchSoundChannel"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Egal"
+          },
+          "parameters": [
+            "Player.TopDownMovement::MaxSpeed()",
+            ">",
+            "700"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModPitchSoundChannel"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "1.2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     },
     {
       "disabled": false,

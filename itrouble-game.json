@@ -746,6 +746,27 @@
         "name": "sprites/items/coffee (1).png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "sound/ITroubled OST.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound/ITroubled OST.wav",
+        "userAdded": true
+      },
+      {
+        "file": "sound/sfx_itempickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound/sfx_itempickup.wav",
+        "userAdded": true
+      },
+      {
+        "file": "sound/sfx_fixed.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound/sfx_fixed.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -755,7 +776,7 @@
   "variables": [
     {
       "name": "gameseconds",
-      "value": "30"
+      "value": "45"
     },
     {
       "name": "workinghours",
