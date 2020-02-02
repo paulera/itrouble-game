@@ -23,6 +23,8 @@ gdjs.IntroCode.GDcoffeeObjects1= [];
 gdjs.IntroCode.GDcoffeeObjects2= [];
 gdjs.IntroCode.GDExclamationObjects1= [];
 gdjs.IntroCode.GDExclamationObjects2= [];
+gdjs.IntroCode.GDLogoObjects1= [];
+gdjs.IntroCode.GDLogoObjects2= [];
 
 gdjs.IntroCode.conditionTrue_0 = {val:false};
 gdjs.IntroCode.condition0IsTrue_0 = {val:false};
@@ -98,6 +100,8 @@ gdjs.IntroCode.GDcoffeeObjects1.length = 0;
 gdjs.IntroCode.GDcoffeeObjects2.length = 0;
 gdjs.IntroCode.GDExclamationObjects1.length = 0;
 gdjs.IntroCode.GDExclamationObjects2.length = 0;
+gdjs.IntroCode.GDLogoObjects1.length = 0;
+gdjs.IntroCode.GDLogoObjects2.length = 0;
 
 gdjs.IntroCode.eventsList0xb4be0(runtimeScene);
 return;
